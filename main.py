@@ -6,6 +6,8 @@ import writer as wf
 
 # Shows in the log when the app starts
 print("Hello world!")
+wf.Config.feature_flags = ["workflows"]
+
 
 # Its name starts with _, so this function won't be exposed
 def _update_message(state):
