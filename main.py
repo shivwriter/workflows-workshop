@@ -17,6 +17,11 @@ def next_image(state):
     state["task_2_selected_image_index"] = (state["task_2_selected_image_index"] + 1) % len(state["task_2_images"])
     state["task_2_selected_image"] = state["task_2_images"][state["task_2_selected_image_index"]]
 
+
+def prev_image(state):
+    state["task_2_selected_image_index"] = (state["task_2_selected_image_index"] - 1) % len(state["task_2_images"])
+    state["task_2_selected_image"] = state["task_2_images"][state["task_2_selected_image_index"]]
+
 initial_state = wf.init_state({
     "task_2_text": task_2,
     "task_2_2_text": task_2_2,

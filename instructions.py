@@ -20,5 +20,7 @@ task_2_2 = """
 
 ###  Objective: Create a chatbot that allows us to chat with the data we just uploaded!
 
-7. The reason the chat app isn't yet working is becasue we haven't yet configured the "Add Chat Message" block to actually add a user's message to the conversation element. That's the next step. Review the images below for steps on how to 
+7. The reason the chat app isn't yet working is becasue we haven't yet configured the "Add Chat Message" block to actually add a user's message to the conversation element. That's the next step. Review the images below for steps on how to leverage `Execution Environment` to figure out the missing context of what to add in the `Message` part of the `Add chat message` block
+
+**A Note on `Execution Environment`**: The steps below show you how to access and understand `Execution Environment`. In short, these are the non-state variables that are available to each block at their point. **This will especially be valuable one day when you're trying to figure out how to pass the values from one block to the next**.
 """
