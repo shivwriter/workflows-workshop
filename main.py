@@ -1,13 +1,12 @@
 import writer as wf
 from instructions import task_2, task_2_2
 
-# This is a placeholder to get you started or refresh your memory.
-# Delete it or adapt it as necessary.
-# Documentation is available at https://dev.writer.com/framework
-
-# Shows in the log when the app starts
 
 wf.Config.feature_flags = ["workflows"]
+
+
+
+""" ==== NOTE: You can ignore everything below. It's mostly to help the flow of the lessons. ==== """
 
 def trigger_task_2_ns(state): 
     state["task_2_show_next_step"] = not state["task_2_show_next_step"]
