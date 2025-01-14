@@ -1,0 +1,6 @@
+{"id": "zqu6r6e0s93o0g26", "type": "page", "content": {"key": "get-trends"}, "handlers": {}, "isCodeManaged": false, "parentId": "root", "position": 2}
+{"id": "e0ilrvud06h3ctma", "type": "sidebar", "content": {}, "handlers": {}, "isCodeManaged": false, "parentId": "zqu6r6e0s93o0g26", "position": -2}
+{"id": "m4rgtw1jljxd2acr", "type": "button", "content": {"text": "1. Upload to KG"}, "handlers": {"wf-click": "$goToPage_upload-kg"}, "isCodeManaged": false, "parentId": "e0ilrvud06h3ctma", "position": 0}
+{"id": "d7d2twn3sjr6moio", "type": "button", "content": {"text": "2. Chat with Data"}, "handlers": {"wf-click": "$goToPage_chat-with-data"}, "isCodeManaged": false, "parentId": "e0ilrvud06h3ctma", "position": 1}
+{"id": "b8074vxwut51si4n", "type": "button", "content": {"text": "3. Get Trends"}, "handlers": {"wf-click": "$goToPage_get-trends"}, "isCodeManaged": false, "parentId": "e0ilrvud06h3ctma", "position": 2}
+{"id": "o0ptgu5hzmundscc", "type": "header", "content": {"text": "Get Trends"}, "handlers": {}, "isCodeManaged": false, "parentId": "zqu6r6e0s93o0g26", "position": 0}
