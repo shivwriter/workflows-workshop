@@ -4,3 +4,4 @@
 {"id": "0dnxx0rpi6apaf7d", "type": "button", "content": {"text": "2. Chat with Data"}, "handlers": {"wf-click": "$goToPage_chat-with-data"}, "isCodeManaged": false, "parentId": "j288qft3qr6mmqo3", "position": 1}
 {"id": "u7yfn26wv1hu53oz", "type": "button", "content": {"text": "3. Get Trends"}, "handlers": {"wf-click": "$goToPage_get-trends"}, "isCodeManaged": false, "parentId": "j288qft3qr6mmqo3", "position": 2}
 {"id": "0lsqe6m8iswgw84j", "type": "header", "content": {"text": "Chat with Data"}, "handlers": {}, "isCodeManaged": false, "parentId": "vdef3assu7ujbqax", "position": 0}
+{"id": "74rf8ud15qkbmtei", "type": "text", "content": {"text": "# Task #2: Chat with Data\n\n###  Objective: Create a chatbot that allows us to chat with the data we just uploaded!\n\n\n1. ", "useMarkdown": "yes"}, "handlers": {}, "parentId": "vdef3assu7ujbqax", "position": 1}
