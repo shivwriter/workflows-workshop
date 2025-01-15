@@ -1,0 +1,2 @@
+{"id": "e41lky135hm832ov", "type": "workflows_workflow", "content": {"key": "task_3_logging"}, "handlers": {}, "isCodeManaged": false, "parentId": "workflows_root", "position": 2}
+{"id": "rebc9jinqamqvqed", "type": "workflows_logmessage", "content": {"message": "Found Item"}, "handlers": {}, "isCodeManaged": false, "parentId": "e41lky135hm832ov", "position": 0, "x": 219, "y": 165}
